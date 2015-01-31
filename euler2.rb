@@ -11,7 +11,8 @@ def FibEven(x)
     if ( b % 2 == 0 )
       sum += b
     end
-    a,b = b, a+b
+    a = b
+    b = a + b
   end
    return sum
 end
